@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+
+}
+/*.clock{
+   background-color: antiquewhite;
+    height:40%;
+    width: 20%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(220, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    position: absolute;
+    top:50%;
+    left:49.8%;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+ background-color: black;
+}
+.num span{
+    width:18px;
+    height:32px;
+    line-height: 34px;
+    color: black;
+    text-align: center;
+    vertical-align: middle; 
+    display: inline-block;
+}
+.num{
+    position: absolute;
+    height:280px;
+}
+.num1{
+    transform: rotate(30deg);
+}
+.num1 span{
+    transform: rotate(-30deg);
+}
+.num2{
+    transform: rotate(60deg);
+}
+.num2 span{
+    transform: rotate(-60deg);
+}
+.num3{
+    transform: rotate(90deg);
+}
+.num3 span{
+    transform: rotate(-90deg);
+}
+.num4{
+    transform: rotate(120deg);
+}
+.num4 span{
+    transform: rotate(-120deg);
+}
+.num5{
+    transform: rotate(150deg);
+}
+.num5 span{
+    transform: rotate(-150deg);
+}
+.num6{
+    transform: rotate(180deg);
+}
+.num6 span{
+    transform: rotate(-180deg);
+}
+.num7{
+    transform: rotate(210deg);
+}
+.num7 span{
+    transform: rotate(-210deg);
+}
+.num8{
+    transform: rotate(240deg);
+}
+.num8 span{
+    transform: rotate(-240deg);
+}
+.num9{
+    transform: rotate(270deg);
+}
+.num9 span{
+    transform: rotate(-270deg);
+}
+.num10{
+    transform: rotate(300deg);
+}
+.num10 span{
+    transform: rotate(-300deg);
+}
+.num11{
+    transform: rotate(330deg);
+}
+.num11 span{
+    transform: rotate(-330deg);
+}
+.num12{
+    transform: rotate(360deg);
+}
+.num12 span{
+    transform: rotate(-360deg);
+}
+.sec{
+    position: absolute;
+   top:35%;
+  left:50%;
+    width:1px;
+    height:16%;
+    transform-origin: 50% 96%;
+    background-color: rgb(241, 119, 119);
+}
+.min{
+    position: absolute;
+    top:39%;
+  left:50%;
+    width:2px;
+    height:12%;
+    background-color:rgb(61, 58, 58);
+    transform-origin: 50% 100%;
+}
+.hr{
+    position: absolute;
+    top:42.5%;
+    left:50%;
+    width:4px;
+    height:9%;
+    background-color:blueviolet;
+    transform-origin: 50% 90%;
+   
+}
